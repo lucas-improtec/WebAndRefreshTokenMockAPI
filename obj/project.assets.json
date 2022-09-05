@@ -1720,26 +1720,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dev02\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuário\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Desenvolvimento\\Study\\dotnet\\RefreshTokenAuth\\RefreshTokenAuth.csproj",
+      "projectUniqueName": "C:\\Users\\Usuário\\Documents\\_Dev\\dotnet\\backend\\WebAndRefreshTokenMockAPI\\RefreshTokenAuth.csproj",
       "projectName": "RefreshTokenAuth",
-      "projectPath": "C:\\Desenvolvimento\\Study\\dotnet\\RefreshTokenAuth\\RefreshTokenAuth.csproj",
-      "packagesPath": "C:\\Users\\dev02\\.nuget\\packages\\",
-      "outputPath": "C:\\Desenvolvimento\\Study\\dotnet\\RefreshTokenAuth\\obj\\",
+      "projectPath": "C:\\Users\\Usuário\\Documents\\_Dev\\dotnet\\backend\\WebAndRefreshTokenMockAPI\\RefreshTokenAuth.csproj",
+      "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuário\\Documents\\_Dev\\dotnet\\backend\\WebAndRefreshTokenMockAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dev02\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1789,7 +1787,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

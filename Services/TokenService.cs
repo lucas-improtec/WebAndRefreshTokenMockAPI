@@ -127,5 +127,10 @@ namespace RefreshTokenAuth.Services
             var item = _refreshTokens.FirstOrDefault(x => x.Item1 == username && x.Item2 == refreshToken);
             _refreshTokens.Remove(item);
         }
+
+        public static (string, string)? CompareRefreshToken(string username, string refreshToken)
+        {
+            return _refreshTokens.FirstOrDefault(x => x.Item1 == username && x.Item2 == refreshToken);
+        }
     }
 }

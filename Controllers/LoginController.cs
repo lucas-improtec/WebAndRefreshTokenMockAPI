@@ -4,6 +4,7 @@ using RefreshTokenAuth.Models;
 using RefreshTokenAuth.Repositories;
 using RefreshTokenAuth.Services;
 using System.Threading.Tasks;
+using RefreshTokenAuth.Authorization;
 
 namespace RefreshTokenAuth.Controllers
 {
@@ -42,6 +43,10 @@ namespace RefreshTokenAuth.Controllers
             var savedRefreshToken = TokenService.GetRefreshToken(username);
             if (savedRefreshToken != refreshToken)
                 throw new SecurityTokenException("Invalid refresh token");
+            // if (TokenService.CompareRefreshToken(username, refreshToken) == null)
+            // {
+            //     throw new SecurityTokenException("Invalid refresh token");
+            // }
 
             var newJwtToken = TokenService.GenerateToken(principal.Claims);
             var newRefreshToken = TokenService.GenerateRefreshToken();
